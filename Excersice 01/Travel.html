@@ -1,0 +1,120 @@
+
+Sure! I have made the necessary adjustments to ensure that the "Read more" button link is styled correctly, and the destinations section appears below the "Start your Journey With" title and "The most reached countries" subtitle. Also, the grid layout will span the full width of the section container.
+
+Here's the corrected code:
+
+html
+Copy code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Travel With Aagra</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css">
+    <link rel="stylesheet" type="text/css" href="travel.css">
+</head>
+<body>
+    <nav>
+        <div class="nav__logo"><a href="#">Travel</a></div>
+        <div class="nav__center">
+            <p>Travel With Aagra</p>
+            <ul class="nav__links">
+                <li class="links"><a href="#home">Home</a></li>
+                <li class="links"><a href="#destination">Destination</a></li>
+                <li class="links"><a href="#about">About us</a></li>
+                <li class="links"><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header id="home">
+        <div class="section__container">
+            <div class="header__content">
+                <h1>Travel</h1>
+                <p>“The world is full of wonderful things you haven't seen yet. 
+                Don't ever give up on the chance of seeing them.<br>
+                We live in a wonderful world that is full of beauty, charm, and adventure. 
+                <br>There is no end to the adventures we can have if only we seek them with 
+                our eyes open.”
+                </p>
+                
+            </div>
+        </div>
+    </header>
+  
+    <section id="destination">
+        <div class="section__container">
+            <h2 class="section__title">Start your Journey With</h2>
+            <p class="section__subtitle">The most reached countries</p>
+            <div class="flex__grid">
+                <div class="image__container">
+                    <div class="image-box">
+                        <div class="country__card">
+                            <img src="images/country1.jpg" alt="Paris, France">
+                            <a href="https://www.google.com/search?q=paris" class="destination-link">
+                                <div class="country__name">
+                                    <i class="ri-map-pin-2-fill"></i>
+                                    <span>Paris, France</span>
+                                    <p>The city of lights and love</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="image__container">
+                    <div class="image-box">
+                        <div class="country__card">
+                            <img src="images/country2.jpg" alt="New York, USA">
+                            <a href="https://www.google.com/search?q=new+york" class="destination-link">
+                                <div class="country__name">
+                                    <i class="ri-map-pin-2-fill"></i>
+                                    <span>New York, USA</span>
+                                    <p>The city that never sleeps</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="image__container">
+                    <div class="image-box">
+                        <div class="country__card">
+                            <img src="images/country3.jpg" alt="Tokyo, Japan">
+                            <a href="https://www.google.com/search?q=Tokyo" class="destination-link">
+                                <div class="country__name">
+                                    <i class="ri-map-pin-2-fill"></i>
+                                    <span>Tokyo, Japan</span>
+                                    <p>A vibrant blend of tradition and modernity</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="section__container">
+            <h2>About Us</h2>
+            <br>
+            <p>We are passionate about helping you discover amazing places around the world.
+            Our mission is to make travel easy, affordable, and unforgettable.</p>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <div class="section__container">
+            <h2>Contact</h2>
+            <br>
+            <p>Email: travel@example.com</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer__container">
+            <p>&copy; 2024 Travel With Aagra. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
